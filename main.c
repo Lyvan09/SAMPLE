@@ -9,3 +9,11 @@ result = fact( 6 );
 printf( "6! == %d\n", result ); 
 return EXIT_SUCCESS; 
 } 
+int main(){ 
+    int first = 16 ;
+    int second = 20;
+    printf(" first = %d \n second = %d \n" , first, second);
+    permutation( &first, &second);
+    printf(" first = %d \n second = %d" , first, second);
+    return 0;
+}
